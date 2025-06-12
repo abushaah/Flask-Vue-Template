@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color:rgb(58, 83, 72);
+  background-color:#3a5348;
   padding: 10px;
   display: flex;
   gap: 10px;

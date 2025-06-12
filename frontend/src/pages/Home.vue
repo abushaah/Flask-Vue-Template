@@ -59,6 +59,7 @@ export default defineComponent({
         items.value = response.data;
         chartData.value.labels = items.value.map(item => item.name);
         chartData.value.datasets[0].data = items.value.map(() => 1);
+        chartData.value.datasets[0].backgroundColor = '#3a5348';
       })
       .catch(err => {
         console.error('Failed to fetch items:', err);
